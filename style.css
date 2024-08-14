@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(97, 136, 199);
+    font-size: 14px;
+}
+img {
+    width: 100% ;
+}
+
+@media (width >= 768px) {
+    body {
+        background-color: rgb(105, 192, 94);
+        font-size: 18px;
+    }
+    img {
+        width: 70% ;
+    }
+}
+
+@media (width >= 1440px ) {
+    body {
+        background-color: rgb(189, 92, 92);
+        font-size: 24px;
+    }
+    img {
+        width: 50% ;
+    }
+}
+
+
